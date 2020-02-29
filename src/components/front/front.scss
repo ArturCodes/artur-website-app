@@ -1,0 +1,128 @@
+// ************************************** //
+//             FRONT PAGE                 //
+// ************************************** //
+.container {
+  position: absolute;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/MN.jpg");
+  background-position: right bottom;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+// ************************************** //
+//            HEADER SECTION              //
+// ************************************** //
+.header {
+  h1 {
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 0.125rem;
+    font-size: 72px;
+    font-weight: 600;
+    transition: 99999s;
+    &:hover {
+      letter-spacing: 0.35rem;
+      color: rgb(245, 179, 35);
+      transition: 1s;
+      &:active {
+        color: white;
+      }
+    }
+  }
+  p {
+    width: 80%;
+    font-size: 24px;
+    letter-spacing: 0.3rem;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+  }
+}
+
+// ************************************** //
+//           CONTENT SECTION              //
+// ************************************** //
+
+.content {
+  margin-top: 15px;
+  li {
+    padding-bottom: 7px;
+  }
+}
+// ----------------------------------
+//          Extension Icons
+// ----------------------------------
+.en {
+  position: relative;
+  top: 5px;
+  right: 2px;
+}
+.es {
+  position: relative;
+  top: 3.5px;
+  right: 6px;
+}
+// ----------------------------------
+//            Social & Nav
+// ----------------------------------
+
+.social,
+.nav {
+  font-size: 34px;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  li a {
+    cursor: pointer;
+    color: white;
+    &:hover {
+      color: rgb(245, 179, 35);
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.nav {
+  padding-bottom: 50px;
+  padding-right: 150px;
+}
+
+// ----------------------------------
+//        Media Screen < 800px
+// ----------------------------------
+
+@media only screen and (max-width: 800px) {
+  .header {
+    h1 {
+      font-size: 50px;
+      letter-spacing: 0.125rem;
+      &:hover {
+        letter-spacing: 0.125rem;
+      }
+    }
+    p {
+      letter-spacing: 0.125rem;
+      font-size: 22px;
+    }
+  }
+  .social,
+  .nav {
+    width: 100%;
+    display: block;
+    ul {
+      align-items: center;
+    }
+  }
+}

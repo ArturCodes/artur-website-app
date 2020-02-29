@@ -1,0 +1,54 @@
+// ************************************** //
+//            PORTFOLIO CSS               //
+// ************************************** //
+.portfolio-wrapper {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 75px;
+  min-height: 100vh;
+  height: auto;
+  background-color: #101010;
+}
+
+.portfolio-container {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  background-color: #1a1a1a;
+  color: #dcdcdc;
+
+}
+
+
+
+// ----------------------------------
+//        Media Screen < 1000px
+// ----------------------------------
+@media only screen and (max-width: 1000px) {
+  .portfolio-wrapper {
+    padding-top: 50px;
+  }
+  .portfolio-container {
+    width: 90%;
+  }
+
+  .navbar-container {
+    width: 80%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a {
+      color: #488a99;
+      padding: 0 10px;
+      margin: 0 30px;
+      &:hover {
+        color: #488a99;
+        border-bottom: #488a99 solid 3px;
+      }
+    }
+  }
+}

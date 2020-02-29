@@ -1,0 +1,119 @@
+// ************************************** //
+//              NAVBAR CSS                //
+// ************************************** //
+.navbar-wrapper {
+  font-size: 1.5rem;
+  width: 80%;
+  padding: 10px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  a {
+    border-bottom: transparent solid 3px;
+    border-radius: 25px;
+    color: #dcdcdc;
+    padding: 5px 25px;
+    margin: 10px 25px;
+    border-bottom: #23444b solid 3px;
+    &:hover {
+      color: #61dbf7;
+      border-bottom: #488a99 solid 3px;
+    }
+  }
+}
+// Nav Icons Extensions Adjusments
+//----------------------------------
+.a-he {
+  position: relative;
+  top: 3px;
+  right: 5px;
+}
+.a-pe {
+  position: relative;
+  top: 3px;
+  right: 6px;
+}
+.a-ae {
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.a-ce {
+  position: relative;
+  top: 4px;
+  right: 6px;
+}
+
+//----------------------------------
+//      Hamburger Nav Button
+//----------------------------------
+.nav-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  &:active {
+    .line {
+      background-color: white;
+    }
+  }
+  .line {
+    margin: 5px auto;
+    width: 25px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: #dcdcdc;
+  }
+}
+
+// ************************************** //
+//     Actived Page  Link Style           //
+// ************************************** //
+.active {
+  color: #61dbf7 !important;
+  border-bottom: #488a99 solid 3px !important;
+}
+
+// ************************************** //
+//         Media Screen < 1000px          //
+// ************************************** //
+@media only screen and (max-width: 1000px) {
+  .navbar-wrapper {
+    line-height: 1.5em;
+    margin: -50px auto 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 0 auto;
+    justify-content: space-between;
+    a {
+      width: fit-content;
+      padding: 0 5px;
+      margin: 4px 5px;
+      padding: 0 15px;
+      border-radius: 25px;
+      &:hover {
+        color: #488a99;
+        border-bottom: #488a99 solid 3px;
+      }
+      &:last-child {
+        margin-bottom: -40px !important;
+      }
+    }
+  }
+  .hide {
+    display: none !important;
+  }
+
+  .nav-button {
+    position: absolute;
+    display: block;
+  }
+}

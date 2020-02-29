@@ -1,0 +1,149 @@
+// ************************************** //
+//              ABOUT CSS                 //
+// ************************************** //
+.about-wrapper {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 75px;
+  min-height: 100vh;
+  height: auto;
+  background-color: #101010;
+}
+
+.content-container {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 25px 50px;
+  background-color: #1a1a1a;
+  color: #dcdcdc;
+  li {
+    list-style-type: disc;
+  }
+  // link colors
+  a {
+    color: #4183c4;
+    text-decoration: none;
+    &:hover {
+      color: #4ea0f1;
+    }
+  }
+  h2 {
+    text-decoration: underline;
+  }
+  span {
+    color: #525959;
+  }
+}
+
+.about-skills {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.about-education {
+  width: 50%;
+  float: right;
+  margin-top: 20px;
+}
+.about-me {
+  clear: both;
+  padding-top: 20px;
+
+  .img-right {
+    float: right;
+    width: 30%;
+    img {
+      width: 220px;
+      height: 293px;
+      display: block;
+      margin-left: 20px;
+    }
+  }
+  .p-left {
+    width: 70%;
+    float: left;
+  }
+}
+
+.hr {
+  border: 0.5px solid #525959;
+}
+
+.UMN,
+.NHCC,
+.RA {
+  margin: 30px 0;
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+// ----------------------------------
+//        Media Screen < 1000px
+// ----------------------------------
+@media only screen and (max-width: 1000px) {
+  .about-wrapper {
+    padding-top: 50px;
+  }
+  .content-container {
+    width: 100%;
+    padding: 5px 25px;
+  }
+
+  .navbar-container {
+    width: 80%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a {
+      color: #488a99;
+      padding: 0 10px;
+      margin: 0 30px;
+      &:hover {
+        color: #488a99;
+        border-bottom: #488a99 solid 3px;
+      }
+    }
+  }
+
+  .about-skills,
+  .about-education,
+  .about-me {
+    width: 100%;
+    clear: both;
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .p-right {
+    display: flex;
+    flex-direction: column;
+    h3 {
+      order: 2;
+    }
+    .img-right {
+      width: auto;
+      order: 1;
+      // align-self: center;
+    }
+    p {
+      order: 3;
+    }
+  }
+
+  .img-right,
+  .p-left {
+    float: none !important;
+    img {
+      margin: 0 auto !important;
+    }
+  }
+}
