@@ -8,7 +8,11 @@ const Portfolio = () => {
       <div className="portfolio-wrapper">
          <Navbar />
          <div className="portfolio-container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero nesciunt vero impedit rem repudiandae architecto soluta optio quidem dicta. Ipsa aliquam iste neque placeat, eos laborum quaerat ipsam illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laborum, ipsum praesentium inventore pariatur, sit hic minus impedit corrupti dolor dignissimos sequi, alias velit odit. Adipisci autem culpa officia ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero nesciunt vero impedit rem repudiandae architecto soluta optio quidem dicta. Ipsa aliquam iste neque placeat, eos laborum quaerat ipsam illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laborum, ipsum praesentium inventore pariatur, sit hic minus impedit corrupti dolor dignissimos sequi, alias velit odit. Adipisci autem culpa officia ducimus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero nesciunt vero impedit rem repudiandae architecto soluta optio quidem dicta. Ipsa aliquam iste neque placeat, eos laborum quaerat ipsam illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laborum, ipsum praesentium inventore pariatur, sit hic minus impedit corrupti dolor dignissimos sequi, alias velit odit. Adipisci autem culpa officia ducimus.
+            <h1>WORKING ON IT......</h1>
+            <p>React do to list app</p>
+            <p>api thing....</p>
+            <p>flower shop page</p>
+            <p>something else....</p>
             </div>
       </div>
    )

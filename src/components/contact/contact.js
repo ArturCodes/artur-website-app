@@ -24,6 +24,7 @@ const Contact = () => {
                   <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                   <input type="submit" value="Submit" />
                </form>
+               <h3>I'll get back to this later.......</h3>
             </div>
          </div >
       </div >
