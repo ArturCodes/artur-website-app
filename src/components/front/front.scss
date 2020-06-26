@@ -29,14 +29,8 @@
     font-size: 72px;
     font-weight: 600;
     transition: 99999s;
-    &:hover {
-      letter-spacing: 0.35rem;
-      color: rgb(245, 179, 35);
-      transition: 1s;
-      &:active {
-        color: white;
-      }
-    }
+    color: rgb(245, 179, 35);
+    letter-spacing: 0.35rem;
   }
   p {
     width: 80%;
