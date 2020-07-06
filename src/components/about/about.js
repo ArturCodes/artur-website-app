@@ -12,7 +12,7 @@ const About = () => {
 
             <div className="about-intro">
                <h2>Hi there!</h2>
-               <p>I'm Art, I'm a self-taught Front-End Web Developer and I mainly working with React.js. Below you will find information on my education, some of my skills, and a bit about me</p>
+               <p>I'm Artur, I'm a self-taught Front-End Web Developer and I mainly working with React.js. Below you will find information on my education, some of my skills, and a bit about me</p>
             </div>
 
 
@@ -28,17 +28,18 @@ const About = () => {
                   <li>Bootstrap </li>
                   <li>Git / GitHub</li>
                   <li><span>Wordpress</span></li>
+                  <li><span>PHP</span></li>
                </ol>
 
                <h3>Software</h3>
                <ol>
-                  <li>Lunacy <span>(Graphic design)</span> </li>
                   <li>Photoshop / Illustrator </li>
                   <li>After Effects / Premiere </li>
                   <li>Visual Studio Code </li>
+                  <li><span>Lunacy (Graphic design)</span> </li>
                   <li>GitHub Desktop </li>
                </ol>
-               <span>Dark Text = Learning / A bit of knowledge</span>
+               <span>* Learning / A bit of knowledge</span>
             </div>
 
             <div className="about-education">
