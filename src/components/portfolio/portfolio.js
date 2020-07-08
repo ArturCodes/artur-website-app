@@ -25,8 +25,8 @@ const Portfolio = () => {
           <div className="info">
             <h4>Flower Shop</h4>
              
-            <p>This project was inspired by a friend, taught me rather quickly on the importance of design. I ended up redoing a lot of my work multiple times just because I didn't know what I wanted, and some parts I had to scrap and start all over just because I wasn't satisfied.</p>
-            <p>I learned a lot from my mistakes in making the site. But in the end, I deciding to drop it move on to another project.</p>
+            <p>Inspired by a friend dream of having a flower shop. I decided to create a flower shop website. I learned rather quickly on the importance of design. Ended up redoing a lot of my work multiple times just because I didn't know what I wanted, and some parts I had to scrap and start all over just because I wasn't satisfied.</p>
+            <p>I learned a lot from my mistakes in making the site. But in the end, I deciding to drop it move on to the next project.</p>
             <span>Build using React, React-Router, JavaScript, HTML, SCSS, Photoshop</span>
           </div>
           <div className="pic">

@@ -66,6 +66,7 @@ img {
   }
   .portfolio-container {
     width: 90%;
+    padding: 0;
   }
 
   .navbar-container {
@@ -82,6 +83,25 @@ img {
         color: #488a99;
         border-bottom: #488a99 solid 3px;
       }
+    }
+  }
+
+  .p-container {
+    flex-direction: column;
+  }
+  .info {
+    width: 90%;
+  }
+  img {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    // min-width: 350px;
+    border: 1px solid rgb(100, 100, 100);
+    width: 150px;
+    &:hover {
+      transition: 0.25s;
+      border: 1px solid rgb(219, 219, 219);
     }
   }
 }

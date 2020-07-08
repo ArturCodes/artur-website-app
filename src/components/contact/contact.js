@@ -1,34 +1,45 @@
-import React from "react"
-import Navbar from "../navbar/navbar"
-import "./contact.scss"
+import React from "react";
+import Navbar from "../navbar/navbar";
+import "./contact.scss";
+import { FaTwitter, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 const Contact = () => {
-   return (
-      <div className="contact-wrapper">
-         <Navbar />
-         <div className="contact-container">
+  return (
+    <div className="contact-wrapper">
+      <Navbar />
+      <div className="contact-container">
 
-            <p>Contact Me</p>
-            <div>
-               <form action="/action_page.php">
-                  <label>First Name </label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-                  <br />
-                  <label>Last Name </label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
-                  <br />
-                  <label>Email </label>
-                  <input type="email" id="email" name="email" placeholder="Your email" />
-                  <br />
-                  <label>Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-                  <input type="submit" value="Submit" />
-               </form>
-               <h3>I'll get back to this later.......</h3>
-            </div>
-         </div >
-      </div >
-   )
-}
+        <div className="mail">
+          <h3>Contact Me</h3>
+          <p><IoIosMail /> Email is the best way to reach me</p>
+          <a href="mailto:ArturShapiro@gmail.com">
+              arturshapiro@gmail.com
+          </a>
+        </div> {/* mail */}
 
-export default Contact
+        <div className="other ">
+
+          <p>But you can also try reaching me through </p>
+
+          <div className="other-social">
+
+            <a href="https://twitter.com/ShapiroArtur">
+              <FaTwitter className="es" /> Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/artur-shapiro/">
+              <FaLinkedinIn className="es" /> LinkedIn
+            </a>
+            <a href="https://github.com/ArturCodes">
+              <FaGithub className="es" /> GitHub
+            </a>
+          </div>
+
+        </div> {/* other */}
+
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

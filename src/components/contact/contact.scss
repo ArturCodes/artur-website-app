@@ -5,22 +5,56 @@
   margin: 0;
   padding: 0;
   padding-bottom: 75px;
-  min-height: 500vh;
+  min-height: 100vh;
   height: auto;
   background-color: #101010;
 }
 
 .contact-container {
   font-family: "Segoe UI", sans-serif;
-  font-size: 1.1em;
   box-sizing: border-box;
   max-width: 1080px;
   margin: 0 auto;
   padding: 25px 50px;
   background-color: #1a1a1a;
   color: #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.3em;
 }
 
+.mail,
+.other {
+  a {
+    color: #101010;
+    color: #4183c4;
+    &:hover {
+      color: #4ea0f1;
+    }
+  }
+}
+
+.mail {
+  svg {
+    position: relative;
+    left: 2px;
+    top: 2.5px;
+  }
+}
+.other {
+  margin-top: 30px;
+}
+
+.other-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  a {
+    padding: 0px 25px;
+    margin-bottom: 35px;
+  }
+}
 
 // ----------------------------------
 //        Media Screen < 1000px
@@ -31,6 +65,7 @@
   }
   .contact-container {
     width: 90%;
+    padding: 10px;
   }
 
   .navbar-container {
@@ -49,4 +84,9 @@
       }
     }
   }
+
+  .other-social {
+    flex-direction: column;
+  }
+
 }
