@@ -14,9 +14,9 @@ const Portfolio = () => {
             <p>Build with a help of a tutorial, it was challenging at first but the more I worked on the project the more I learned.</p>
             <span>Build with React, Bootstrap, JavaScript, HTML, SCSS</span>
           </div>
-          <div className="pic">
+          <div  >
             <a href="https://artur-shapiro-todo-app.netlify.app/">
-              <img src={require("./img/todo.jpg")} alt="todo-img" />
+              <img className="pic" src={require("./img/todo.jpg")} alt="todo-img" />
             </a>
           </div>
         </div>
@@ -29,9 +29,9 @@ const Portfolio = () => {
             <p>I learned a lot from my mistakes in making the site. But in the end, I deciding to drop it move on to the next project.</p>
             <span>Build using React, React-Router, JavaScript, HTML, SCSS, Photoshop</span>
           </div>
-          <div className="pic">
+          <div >
             <a href="https://artur-shapiro-flower-shop.netlify.app/">
-              <img src={require("./img/flower.jpg")} alt="todo-img" />
+              <img className="pic" src={require("./img/flower.jpg")} alt="todo-img" />
             </a>
           </div>
         </div>
