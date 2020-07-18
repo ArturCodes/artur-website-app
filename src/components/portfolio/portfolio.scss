@@ -88,9 +88,17 @@
 
   .p-container {
     flex-direction: column;
+    div a  {
+      display: flex;
+      padding-bottom: 25px;
+    }
   }
   .info {
     width: 90%;
+    span {
+      text-align: center;
+      padding-bottom: 10px;
+    }
   }
   img {
     padding: 5px;

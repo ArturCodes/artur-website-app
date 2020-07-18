@@ -14,7 +14,7 @@ const Contact = () => {
           <h3>Contact Me</h3>
           <p><IoIosMail /> Email is the best way to reach me</p>
           <a href="mailto:ArturShapiro@gmail.com">
-              arturshapiro@gmail.com
+              ArturShapiro@Gmail.com
           </a>
         </div> {/* mail */}
 
