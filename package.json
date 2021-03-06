@@ -1,5 +1,6 @@
 {
   "name": "artur-app",
+  "author": "Artur Shapiro",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -10,7 +11,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-icons": "^3.9.0",
-    "react-router-dom": "^5.1.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0"
   },
   "scripts": {

@@ -73,9 +73,9 @@ const About = () => {
                   <div className="img-right">
                      <img src={require('../img/SelfE.jpg')} alt="Selfy of Artur Shapiro" />
                   </div>
-                  <p>I was born in Ukraine, raised in Israel till the age of 13, and then with my family I moved to the States. I went to the University of Minnesota and painstakingly got my degree. After working multiple jobs, I realized none of them were fulfilling. I realized what I wanted was something that was challenging and something that I can become really good at.</p>
+                  <p>I was born in Ukraine, and raised in Israel. My family I then moved to the States. I went to the University of Minnesota and painstakingly got my degree. After working multiple jobs, I realized none of them were fulfilling. I realized what I wanted was something that was challenging and something that I can become really good at.</p>
                   <p>Back in at the University, it never occurred to me that computer science was an option, and somehow by accident I stumbled upon web development, and ever since that day I've been hooked.</p>
-                  <p>I'm not going to deny, the journey to this point has been quite challanging. Life has thrown couple curve balls at me that slowed me down quite a bit. I had to deal with financial issues and health issues., but through sweat and tears I kept on going.</p>
+                  <p>I'm not going to deny, the journey to this point has been quite challanging. Life has thrown couple curve balls at me that slowed me down quite a bit. I had to deal with financial issues and health issues, but through sweat and tears I kept on going.</p>
                </div>
                <h3>Hobbies</h3>
                <p>Their are many things that I love doing in my free time. At the top of the list its camping and hiking, movies and anime, gaming, filming, fishing, mushroom hunting, food and beer, and of course hanging out with my friends and family, because without them a lot of those activities would be quite dull ;) </p>
