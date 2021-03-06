@@ -23,7 +23,7 @@ class Navbar extends Component {
 
    render() {
       const { btnOn } = this.state;
-      // Classes depending on theh state
+      // Classes depending on the state
       let navWrapperClass = "navbar-wrapper"
       if (btnOn) {
          navWrapperClass += " hide"
