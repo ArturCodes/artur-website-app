@@ -74,7 +74,7 @@ const About = () => {
                      <img src={require('../img/SelfE.jpg')} alt="Selfy of Artur Shapiro" />
                   </div>
                   <p>I was born in Ukraine, but raised in Israel. My family then moved to the States when I was 13. I went to the University of Minnesota and painstakingly got my degree. After working multiple jobs, I realized none of them were fulfilling. I realized what I wanted was something that was challenging and something that I can become really good at.</p>
-                  <p>Back in at the University, it never occurred to me that computer science was an option, and somehow by accident I stumbled upon web development, and ever since that day I've been hooked.</p>
+                  <p>Back in at the University, it never occurred to me that was an option, and somehow by accident I stumbled upon web development, and ever since that day I've been hooked.</p>
                   <p>I'm not going to deny, the journey to this point has been quite challanging. Life has thrown couple curve balls at me that slowed me down quite a bit. I had to deal with financial issues and health issues, but through sweat and tears I kept on going.</p>
                </div>
                <h3>Hobbies</h3>
